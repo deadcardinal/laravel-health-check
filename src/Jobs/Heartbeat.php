@@ -11,7 +11,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 
 class Heartbeat implements ShouldQueue
 {
-    use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
+    use InteractsWithQueue, Queueable, SerializesModels;
 
     /**
      * @var int $tries
